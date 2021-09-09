@@ -1,21 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="5" total="13" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-08T21:09:31 IST" name="Default suite" finished-at="2021-09-08T21:09:31 IST" duration-ms="66">
+  <suite started-at="2021-09-09T19:25:11 IST" name="Loan Department" finished-at="2021-09-09T19:25:11 IST" duration-ms="145">
     <groups>
+      <group name="smoke">
+        <method signature="day1.Demo()[pri:0, instance:Basics.day1@4bb33f74]" name="Demo" class="Basics.day1"/>
+        <method signature="day2.Demo()[pri:0, instance:Basics.day2@3e84448c]" name="Demo" class="Basics.day2"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2021-09-08T21:09:31 IST" name="Default test" finished-at="2021-09-08T21:09:31 IST" duration-ms="66">
+    <test started-at="2021-09-09T19:25:11 IST" name="Personal Loan" finished-at="2021-09-09T19:25:11 IST" duration-ms="46">
       <class name="Basics.day1">
-        <test-method signature="Demo()[pri:0, instance:Basics.day1@61386958]" started-at="2021-09-08T21:09:31 IST" name="Demo" finished-at="2021-09-08T21:09:31 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="BC(java.lang.String)[pri:0, instance:Basics.day1@4bb33f74]" started-at="2021-09-09T19:25:11 IST" name="BC" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[URL1-testautomationpoint]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method signature="Demo()[pri:0, instance:Basics.day1@4bb33f74]" started-at="2021-09-09T19:25:11 IST" name="Demo" finished-at="2021-09-09T19:25:11 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method signature="SecondTest()[pri:0, instance:Basics.day1@61386958]" started-at="2021-09-08T21:09:31 IST" name="SecondTest" finished-at="2021-09-08T21:09:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AC()[pri:0, instance:Basics.day1@4bb33f74]" started-at="2021-09-09T19:25:11 IST" name="AC" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SecondTest -->
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:Basics.day1@4bb33f74]" started-at="2021-09-09T19:25:11 IST" name="lastexecution" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
       </class> <!-- Basics.day1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Basics.day2">
+        <test-method is-config="true" signature="prerequisite(java.lang.String)[pri:0, instance:Basics.day2@3e84448c]" started-at="2021-09-09T19:25:11 IST" name="prerequisite" finished-at="2021-09-09T19:25:11 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[URL1-testautomationpoint]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="Demo()[pri:0, instance:Basics.day2@3e84448c]" started-at="2021-09-09T19:25:11 IST" name="Demo" finished-at="2021-09-09T19:25:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- Basics.day2 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2021-09-09T19:25:11 IST" name="Car Loan" finished-at="2021-09-09T19:25:11 IST" duration-ms="29">
+      <class name="Basics.day3">
+        <test-method is-config="true" signature="Bsuite()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="Bsuite" finished-at="2021-09-09T19:25:11 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bsuite -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="BM" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="Carapilogin(java.lang.String,java.lang.String)[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="Carapilogin" data-provider="getdata" finished-at="2021-09-09T19:25:11 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Carapilogin -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="BM" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="Carapilogin(java.lang.String,java.lang.String)[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="Carapilogin" data-provider="getdata" finished-at="2021-09-09T19:25:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Carapilogin -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="AM" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="AM" finished-at="2021-09-09T19:25:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="BM" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="Carapilogin(java.lang.String,java.lang.String)[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="Carapilogin" data-provider="getdata" finished-at="2021-09-09T19:25:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Carapilogin -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="AM" finished-at="2021-09-09T19:25:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method signature="Carweblogin()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="Carweblogin" finished-at="2021-09-09T19:25:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Carweblogin -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="BM" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Basics.day3@434a63ab]" started-at="2021-09-09T19:25:11 IST" name="AM" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+      </class> <!-- Basics.day3 -->
+      <class name="Basics.day4">
+        <test-method signature="Homeapilogin()[pri:0, instance:Basics.day4@3a44431a]" started-at="2021-09-09T19:25:11 IST" name="Homeapilogin" finished-at="2021-09-09T19:25:11 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homeapilogin -->
+        <test-method signature="Homelogin()[pri:0, instance:Basics.day4@3a44431a]" started-at="2021-09-09T19:25:11 IST" name="Homelogin" finished-at="2021-09-09T19:25:11 IST" depends-on-methods="Basics.day4.Homeapilogin" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homelogin -->
+      </class> <!-- Basics.day4 -->
+      <class name="Basics.day1">
+        <test-method is-config="true" signature="Asuite()[pri:0, instance:Basics.day1@4bb33f74]" started-at="2021-09-09T19:25:11 IST" name="Asuite" finished-at="2021-09-09T19:25:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Asuite -->
+      </class> <!-- Basics.day1 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
 </testng-results>

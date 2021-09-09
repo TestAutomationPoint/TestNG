@@ -1,5 +1,6 @@
 package Basics;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class day4 
@@ -14,12 +15,14 @@ public class day4
 	public void Homemobilelogin()
 	{
 		System.out.println("In Homemobilelogin");
+		
 	}
 	
 	@Test(timeOut=4000)
 	public void Homeapilogin()
 	{
 		System.out.println("In Homeapilogin");
+		Assert.assertTrue(false);
 	}
 
 
